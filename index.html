@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NIDHEESH KAHNDELWAL-WEB DEVELOPER</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" />this is used for good quality.like if we open this website on phone it will show the same quality as compared to laptop -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- the above is the code for connecting bootstrap to html -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter|Cabin|Montserrat|Nunito|Poppins|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- the above is the code so that we can apply these fonts in our css code -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css" />the text/css is reffering to the text in css -->
+  <body>
+    <!-- below is the code of navigation buttons -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light">this is the navigation bar property.we can take help from w3 schools and see other properties too -->
+      <div class="container">
+        <!-- class="navbar-toggler".we have to write this class whenever we are using a button with navbar -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggle-icon"></span>
+          <!-- in the above code data-target connects the aria-control and the div id.type button is telling that it is  a button -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link nav-titles" href="">HOME</a>
+            <a class="nav-item nav-link nav-titles" href="#about">ABOUT</a>
+            <a class="nav-item nav-link nav-titles" href="#contact">CONTACT</a>
+            <!-- <div class="navbar-nav ml-auto"></div>navbar nav is telling that the navbar is the elemnet of nav tag and ml auto means that its giving left margin to make the element come in right. -->
+            <!-- <a class="nav-item nav-link nav-titles" href="">HOME</a> in this code nav-item is the item of nav.nav-titles is the random class..nav-link tells that it is the link of the nav-->
+            <!-- href="#about">ABOUT</a>
+          href="#contact">CONTACT</a>this #about and #contact brings us to the about and contact page respectively when we click them. -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="summary flex">
+              <h1>Hey,I'm Nidheesh</h1>
+              <p>Web developer</p>
+              <p>
+                I am interested in technology.I am now 12 years and i want to
+                use technology to make the things more easier in this world. You
+                can find me on
+                <a
+                  href="https://www.facebook.com/anubhav.khandelwal.7"
+                  target="blank"
+                >
+                  facebook</a
+                >
+                ,or <a href="mailto: nidheeshrock03@gmail.com"> email </a>me.
+              </p>
+              <!-- the href target means it will open a new tab and the page that was the given link will be there -->
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="profile flex">
+              <img src="images/my2.jpeg" class="profile-photo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="row about-div">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <!-- <div class="row about-div">we can add many classes like this to perform specific functions by giving spaces. -->
+          <br />
+          <h3 id="stitle">ABOUT</h3>
+          <br />
+          <p class="content">
+            I'm student at Lotus valley international school,noida.I am in grade
+            7.
+          </p>
+          <p class="content">
+            I believe in going hand in hand toward creating amazing things.
+            Looking to work with some amazing friends on an impactful project.
+            Focusing on turning ideas into delightful and meaningful solutions.
+            I have passion for self-learning and strive to improve and challenge
+            my skills to become better at what I do.
+          </p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <br />
+      <br />
+    </div>
+    <div class="container">
+      <h2
+        style="
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+          font-size: 50px;
+        "
+      >
+        Skills
+      </h2>
+      <div class="skills">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img src="images/python.png" class="python" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img src="images/html.png" class="html" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img src="images/css.png" class="css" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img
+                src="images/javascript.png"
+                class="javascript"
+                alt="images"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img src="images/django.png" class="django" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skills-card flex" style="width: 18rem; height: 20rem;">
+              <img src="images/java.png" class="java" alt="images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container" id="contact">
+        <div class="row">
+          <div class="col-sm-4">
+            <p class="copy">&copy; Nidheesh kahndelwal</p>
+            <!-- &copy brings the c in the circle.you can see it to the left of nidheesh khandelwal -->
+            <!-- <p class="copy">&copy; Nidheesh kahndelwal</p>is this the way of writing the c code. -->
+          </div>
+          <div class="col-sm-6">
+            <div class="contacts">
+              <div class="mail">
+                <a href="mailto: nidheeshrocks03@gmail.com">
+                  <img src="images/at.png" alt="images" />
+                </a>
+              </div>
+              <div class="linkedin">
+                <a href="" target="blank">
+                  <img src="images/linkedin.png" />
+                </a>
+              </div>
+              <div class="github">
+                <a href="https://github.com/nidheesh03" target="blank">
+                  <img src="images/github-logo.png" />
+                </a>
+              </div>
+              <div class="facebook">
+                <a href="https://www.facebook.com/anubhav.khandelwal.7" target="blank">
+                  <img src="images/facebook.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

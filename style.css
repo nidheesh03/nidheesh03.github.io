@@ -1,0 +1,143 @@
+.nav-titles{
+    font-family: "Nunito",sans-serif;
+    font-size:20px;
+    font-weight:600px;
+    margin-top:20px;
+}
+/* font-weight:600px;.it is used to make the font thick or thin. */
+.hero{
+    height:80vh;
+}
+/* vh means % of the device screen */
+.flex{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+/* display flex means its creating a box like container */
+/* align-items:flex-start;.this means it will align items from the start of the flex */
+/* justify-content:center;.it means align the items in the flex to center */
+.summary{
+    margin-left: 100px;
+    height: 80vh;
+    flex-direction: column;
+}
+/* flex-direction: column;it creates a column in the flex. */
+.summary  p{
+    font-family: 'Bitter',sans-serif;
+    margin-top: 1emm;
+    font-size: 20px;
+    width: 450px;
+}
+.profile-photo{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top:60px;
+}
+/* border radius means giving shape like rounded,etc.we can try it by giving different values.sir can we give the readius in any other unit apart from %? */
+#stitle{
+    margin-top: 2em;
+    text-align:center;
+}
+.content{
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    color:#6c5ce7;
+    font-size:20px;
+}
+/* color:#6c5ce7;.we use this for font color */
+.about{
+    margin-top: 5em;
+    background-color: #b2bec3;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+    background-size: cover;
+}
+.about-div{
+    margin-right:0;
+}
+/* margin-right:0;.in the above code the margin-right:0 because we dont want the margin to be applied*/
+/* padding-bottom: 5em;   margin-bottom: 5em;.these things are always giving style to their parent.for example in this case its giving the padding and margin from the about div. */
+.html{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.java{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.javascript{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.django{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.css{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.python{
+    width:150px;
+    height:150px;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+}
+.copy{
+    margin-top: 45px;
+    color:#fff;
+    font-family: 'Cabin', sans-serif;
+}
+.linkedin{
+    left: 5em;
+    width: 35%;
+    height: 55%;
+    margin-left: 5em;
+}
+.github{
+    left: 5em;
+    width: 35%;
+    height: 55%;
+    margin-left: 5em;
+}
+.contacts{
+    margin-top: 45px;
+}
+.mail{
+    display: inline;
+}
+.linkedin{
+    display: inline;
+    margin-left: 5em;
+}
+.facebook{
+    display: inline;
+    margin-left: 5em;
+}
+.github{
+    display:inline;
+    margin-left: 5em;
+}
+.facebook {
+    left: 5em;
+    width: 35%;
+    height: 55%;
+    margin-left: 5em;
+}
